@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    
+<!-- /* 8. Write a JavaScript program where the program takes a random integer between 1 to 10, the user is then prompted to input
+a guess number. If the user input matches with guess number, the program will display a message "Good Work" otherwise display
+a message "Not matched". */ let userInput = Number(window.prompt("Type a number", "")); let randomNumber = Math.random()
+randomNumber = (randomNumber * 10) + 1 randomNumber = Math.floor(randomNumber) if (userInput === randomNumber) { console.log("Good
+Work") } else { console.log("Not Matched") } console.log(randomNumber)
+*/ -->
+
+    <script>
+
+        let userInput = Number(window.prompt("Type a number", ""));
+        let randomNumber = Math.random()
+        randomNumber = (randomNumber * 10) + 1
+        randomNumber = Math.floor(randomNumber)
+        if (userInput === randomNumber) {
+            console.log("Good Work")
+        } else {
+            alert("Not Matched. it was " + randomNumber)
+        }
+        
+    </script>
+
+</body>
+
+</html>
+
